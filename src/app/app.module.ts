@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component'
 import { ROUTES } from './app.routes';
 import { MoviesComponent } from './movies/movies.component';
 import { MovieComponent } from './movies/movie/movie.component';
+import { MoviesService } from './movies/movies.service';
 
 
 @NgModule({
@@ -27,7 +28,7 @@ import { MovieComponent } from './movies/movie/movie.component';
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [],
+  providers: [MoviesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
