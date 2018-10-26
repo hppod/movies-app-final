@@ -1,15 +1,15 @@
-<a href="detail-movie.html">
+<a href="#">
   <div class="place-info-box">
-    <span class="place-info-box-icon"><img src="assets/img/movies/avengers.jpg" /></span>
+    <span class="place-info-box-icon"><img [src]="movie.imagePath" /></span>
 
     <div class="place-info-box-content">
-      <span class="place-info-box-text">Avengers: Guerra Infinita</span>
-      <span class="place-info-box-star"><i class="fa fa-star"></i> 4.5</span>
-      <span class="place-info-box-detail">Ação e Aventura</span>
-      <span class="place-info-box-detail">2018</span>
-      <span class="place-info-box-detail">156 minutos</span>
-      <span class="place-info-box-detail">Walt Disney Pictures</span>
-      
+      <span class="place-info-box-text">{{movie.name}}</span>
+      <span class="place-info-box-star"><i class="fa fa-star"></i> {{movie.rating}}</span>
+      <span class="place-info-box-detail">{{movie.genre}}</span>
+      <span class="place-info-box-detail">{{movie.year}}</span>
+      <span class="place-info-box-detail">{{movie.duration}}</span>
+      <span class="place-info-box-detail">{{movie.studio}}</span>
+
     </div>
     <!-- /.info-box-content -->
   </div>
