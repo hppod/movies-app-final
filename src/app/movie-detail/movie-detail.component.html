@@ -1,11 +1,4 @@
 <!-- INÍCIO DO CONTEÚDO -->
-<section class="content-header">
-  <h1>
-
-  </h1>
-</section>
-
-
 <section class="content">
 
   <div class="row">
@@ -14,30 +7,28 @@
         <div class="box-header with-border">
           <i class="fa fa-ticket"></i>
 
-          <h3 class="box-title">Avengers: Guerra Infinita</h3><span class="pull-right"><i class="fa fa-star"></i>
-            4.5</span>
+          <h3 class="box-title">{{movie?.name}}</h3><span class="pull-right"><i class="fa fa-star"></i>
+            {{movie?.rating}}</span>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-          <div class="col-sm-3 col-xs-12">
-            <img class="box-img-detail" src="assets/img/movies/avengers.jpg" />
+          <div class="col-sm-3 col-xs-12" *ngIf="movie">
+            <img class="box-img-detail" [src]="movie?.imagePath" />
           </div>
 
           <dl class="col-sm-9 col-xs-12">
             <dt>Gênero</dt>
-            <dd>Ação e Aventura</dd>
+            <dd>{{movie?.genre}}</dd>
             <dt>Ano de Lançamento</dt>
-            <dd>2018</dd>
+            <dd>{{movie?.year}}</dd>
             <dt>Duração</dt>
-            <dd>156 minutos</dd>
+            <dd>{{movie?.duration}}</dd>
             <dt>Estúdio</dt>
-            <dd>Walt Disney Pictures</dd>
+            <dd>{{movie?.studio}}</dd>
             <dt>Sinopse</dt>
-            <dd>Thanos enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores
-              precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças entre alguns
-              de seus integrantes.</dd>
+            <dd>{{movie?.about}}</dd>
             <dt>Quero fazer uma avaliação</dt>
-            <dd><a href="review.html" class="btn btn-success"><i class="fa fa-edit"></i> Avaliar</a></dd>
+            <dd><a href="#" class="btn btn-success"><i class="fa fa-edit"></i> Avaliar</a></dd>
           </dl>
         </div>
         <!-- /.box-body -->
