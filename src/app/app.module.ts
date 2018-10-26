@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component'
 import { ROUTES } from './app.routes';
 import { MoviesComponent } from './movies/movies.component';
+import { MovieComponent } from './movies/movie/movie.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { MoviesComponent } from './movies/movies.component';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    MoviesComponent
+    MoviesComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,
