@@ -12,6 +12,7 @@ import { ROUTES } from './app.routes';
 import { MoviesComponent } from './movies/movies.component';
 import { MovieComponent } from './movies/movie/movie.component';
 import { MoviesService } from './movies/movies.service';
+import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MoviesService } from './movies/movies.service';
     HomeComponent,
     AboutComponent,
     MoviesComponent,
-    MovieComponent
+    MovieComponent,
+    MovieDetailComponent
   ],
   imports: [
     BrowserModule,
