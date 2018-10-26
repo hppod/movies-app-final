@@ -1,0 +1,544 @@
+{
+  "movies": [
+    {
+      "id": "avengers",
+      "name": "Avengers: Guerra Infinita",
+      "genre": "Ação e Aventura",
+      "year": 2018,
+      "duration": "156 minutos",
+      "studio": "Walt Disney Pictures",
+      "rating": 4.5,
+      "about": "Thanos enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças entre alguns de seus integrantes.",
+      "imagePath": "assets/img/movies/avengers.jpg"
+    },
+    {
+      "id": "black_panther",
+      "name": "Pantera Negra",
+      "genre": "Ação e Aventura",
+      "year": 2018,
+      "duration": "135 minutos",
+      "studio": "Marvel Studios",
+      "rating": 4.1,
+      "about": "Após a morte do rei T'Chaka, o príncipe T'Challa retorna a Wakanda para a cerimônia de coroação. Nela são reunidas as cinco tribos que compõem o reino, sendo que uma delas, os Jabari, não apoia o atual governo. T'Challa logo recebe o apoio de Okoye, a chefe da guarda de Wakanda, da irmã Shuri, que coordena a área tecnológica do reino, e também de Nakia, a grande paixão do atual Pantera Negra, que não quer se tornar rainha. Juntos, eles estão à procura de Ulysses Klaue, que roubou de Wakanda um punhado de vibranium, alguns anos atrás.",
+      "imagePath": "assets/img/movies/black_panther.jpg"
+    },
+    {
+      "id": "deadpool",
+      "name": "Deadpool 2",
+      "genre": "Ação e Aventura",
+      "year": 2018,
+      "duration": "119 minutos",
+      "studio": "20th Century Fox",
+      "rating": 4.1,
+      "about": "Quando o super soldado Cable chega em uma missão para assassinar o jovem mutante Russel, o mercenário Deadpool precisa aprender o que é ser herói de verdade para salvá-lo. Para isso, ele recruta seu velho amigo Colossus e forma o novo grupo X-Force, sempre com o apoio do fiel escudeiro Dopinder.",
+      "imagePath": "assets/img/movies/deadpool.jpg"
+    },
+    {
+      "id": "death_stalin",
+      "name": "A Morte de Stalin",
+      "genre": "Drama",
+      "year": 2018,
+      "duration": "107 minutos",
+      "studio": "IFC Films",
+      "rating": 3.8,
+      "about": "União Soviética, 1953. Após a inesperada morte do ícone Josef Stalin, o alto escalão do comitê do Partido Comunista se vê em momentos caóticos para decidir quem será o sucessor do líder soviético e quais rumos a nação seguirá a partir de então, uma enorme disputa que envolve até os complexos herdeiros do político.",
+      "imagePath": "assets/img/movies/death_stalin.jpg"
+    },
+    {
+      "id": "hereditary",
+      "name": "Hereditário",
+      "genre": "Terror",
+      "year": 2018,
+      "duration": "127 minutos",
+      "studio": "Windy Hill Pictures",
+      "rating": 3.4,
+      "about": "Após a morte da reclusa avó, a família Graham começa a desvendar algumas coisas. Mesmo após a partida da matriarca, ela permanece como se fosse um sombra sobre a família, especialmente sobre a solitária neta adolescente, Charlie, por quem ela sempre manteve uma fascinação não usual. Com um crescente terror tomando conta da casa, a família explora lugares mais escuros para escapar do infeliz destino que herdaram.",
+      "imagePath": "assets/img/movies/hereditary.jpg"
+    },
+    {
+      "id": "incredibles",
+      "name": "Os Incríveis 2",
+      "genre": "Animação",
+      "year": 2018,
+      "duration": "118 minutos",
+      "studio": "Disney Pixar",
+      "rating": 4.2,
+      "about": "Quando Helena Pêra é chamada para voltar a lutar contra o crime como a super-heroína Mulher-Elástica, cabe ao seu marido, Roberto, a tarefa de cuidar das crianças, especialmente o bebê Zezé. O que ele não esperava era que o caçula da família também tivesse superpoderes, que surgem sem qualquer controle.",
+      "imagePath": "assets/img/movies/incredibles_2.jpg"
+    },
+    {
+      "id": "mission",
+      "name": "Missão Impossível: Fallout",
+      "genre": "Ação e Aventura",
+      "year": 2018,
+      "duration": "147 minutos",
+      "studio": "Paramount Pictures",
+      "rating": 4.3,
+      "about": "Obrigado a unir forças com o agente especial da CIA August Walker para mais uma missão impossível, Ethan Hunt se vê novamente cara a cara com Solomon Lane e preso numa teia que envolve velhos conhecidos movidos por interesses misteriosos e contatos de moral duvidosa. Atormentado por decisões do passado que retornam para assombrá-lo, Hunt precisa se resolver com seus sentimentos e impedir que uma catastrófica explosão ocorra, no que conta com a ajuda dos amigos de IMF.",
+      "imagePath": "assets/img/movies/mission.jpg"
+    },
+    {
+      "id": "star_wars",
+      "name": "Star Wars: O Último Jedi",
+      "genre": "Ficção Científica",
+      "year": 2017,
+      "duration": "152 minutos",
+      "studio": "Walt Disney Pictures",
+      "rating": 2.9,
+      "about": "Após encontrar o mítico e recluso Luke Skywalker em uma ilha isolada, a jovem Rey busca entender o balanço da Força a partir dos ensinamentos do mestre jedi. Paralelamente, o Primeiro Império de Kylo Ren se reorganiza para enfrentar a Aliança Rebelde.",
+      "imagePath": "assets/img/movies/star_wars.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": "robert_downey",
+      "imagePath": "assets/img/cast/robert_downey.jpg",
+      "name": "Robert Downey Jr.",
+      "character": "Tony Stark / Homem de Ferro",
+      "movieId": "avengers"
+    },
+    {
+      "id": "chris_hemsworth",
+      "imagePath": "assets/img/cast/chris_hemsworth.jpg",
+      "name": "Chris Hemsworth",
+      "character": "Thor",
+      "movieId": "avengers"
+    },
+    {
+      "id": "mark_ruffalo",
+      "imagePath": "assets/img/cast/mark_ruffalo.jpg",
+      "name": "Mark Ruffalo",
+      "character": "Bruce Banner / Hulk",
+      "movieId": "avengers"
+    },
+    {
+      "id": "chris_evans",
+      "imagePath": "assets/img/cast/chris_evans.jpg",
+      "name": "Chris Evans",
+      "character": "Steve Rogers / Capitão América",
+      "movieId": "avengers"
+    },
+    {
+      "id": "chadwick_boseman",
+      "imagePath": "assets/img/cast/chadwick_boseman.jpg",
+      "name": "Chadwick Boseman",
+      "character": "T'Challa / Pantera Negra",
+      "movieId": "black_panther"
+    },
+    {
+      "id": "michael_jordan",
+      "imagePath": "assets/img/cast/michael_jordan.jpg",
+      "name": "Michael Jordan",
+      "character": "Erik Killmonger",
+      "movieId": "black_panther"
+    },
+    {
+      "id": "lupita_nyong",
+      "imagePath": "assets/img/cast/lupita_nyong.jpg",
+      "name": "Lupita Nyong'o",
+      "character": "Nakia",
+      "movieId": "black_panther"
+    },
+    {
+      "id": "danai_gurira",
+      "imagePath": "assets/img/cast/danai_gurira.jpg",
+      "name": "Danai Gurira",
+      "character": "Okoye",
+      "movieId": "black_panther"
+    },
+    {
+      "id": "ryan_reynolds",
+      "imagePath": "assets/img/cast/ryan_reynolds.jpg",
+      "name": "Ryan Reynolds",
+      "character": "Wade / Deadpool",
+      "movieId": "deadpool"
+    },
+    {
+      "id": "josh_brolin",
+      "imagePath": "assets/img/cast/josh_brolin.jpg",
+      "name": "Josh Brolin",
+      "character": "Cable",
+      "movieId": "deadpool"
+    },
+    {
+      "id": "morena_baccarin",
+      "imagePath": "assets/img/cast/morena_baccarin.jpg",
+      "name": "Morena Baccarin",
+      "character": "Vanessa",
+      "movieId": "deadpool"
+    },
+    {
+      "id": "zazie_beetz",
+      "imagePath": "assets/img/cast/zazie_beetz.jpg",
+      "name": "Zazie Beetz",
+      "character": "Domino",
+      "movieId": "deadpool"
+    },
+    {
+      "id": "steve_buscemi",
+      "imagePath": "assets/img/cast/steve_buscemi.jpg",
+      "name": "Steve Buscemi",
+      "character": "Nikita Khrushchev",
+      "movieId": "death_stalin"
+    },
+    {
+      "id": "jeffrey_tambor",
+      "imagePath": "assets/img/cast/jeffrey_tambor.jpg",
+      "name": "Jeffrey Tambor",
+      "character": "Georgy Malenkov",
+      "movieId": "death_stalin"
+    },
+    {
+      "id": "rupert_friend",
+      "imagePath": "assets/img/cast/rupert_friend.jpg",
+      "name": "Rupert Friend",
+      "character": "Vasily Stalin",
+      "movieId": "death_stalin"
+    },
+    {
+      "id": "jason_isaacs",
+      "imagePath": "assets/img/cast/jason_isaacs.jpg",
+      "name": "Jason Isaacs",
+      "character": "Georgy Zhukov",
+      "movieId": "death_stalin"
+    },
+    {
+      "id": "toni_collette",
+      "imagePath": "assets/img/cast/toni_collette.jpg",
+      "name": "Toni Collette",
+      "character": "Annie Graham",
+      "movieId": "hereditary"
+    },
+    {
+      "id": "milly_shapiro",
+      "imagePath": "assets/img/cast/milly_shapiro.jpg",
+      "name": "Milly Shapiro",
+      "character": "Charlie Graham",
+      "movieId": "hereditary"
+    },
+    {
+      "id": "alex_wolff",
+      "imagePath": "assets/img/cast/alex_wolff.jpg",
+      "name": "Alex Wolff",
+      "character": "Peter Graham",
+      "movieId": "hereditary"
+    },
+    {
+      "id": "gabriel_byrne",
+      "imagePath": "assets/img/cast/gabriel_byrne.jpg",
+      "name": "Gabriel Byrne",
+      "character": "Steve Graham",
+      "movieId": "hereditary"
+    },
+    {
+      "id": "craig_nelson",
+      "imagePath": "assets/img/cast/craig_nelson.jpg",
+      "name": "Craig T. Nelson",
+      "character": "Bob Parr / Sr. Incrível",
+      "movieId": "incredibles"
+    },
+    {
+      "id": "holly_hunter",
+      "imagePath": "assets/img/cast/holly_hunter.jpg",
+      "name": "Holly Hunter",
+      "character": "Helen Parr / Mulher elastica",
+      "movieId": "incredibles"
+    },
+    {
+      "id": "samuel_jackson",
+      "imagePath": "assets/img/cast/samuel_jackson.jpg",
+      "name": "Samuel L. Jackson",
+      "character": "Lucius Best / Gelado",
+      "movieId": "incredibles"
+    },
+    {
+      "id": "bob_odenkirk",
+      "imagePath": "assets/img/cast/bob_odenkirk.jpg",
+      "name": "Bob Odenkirk",
+      "character": "Winstor Deavor",
+      "movieId": "incredibles"
+    },
+    {
+      "id": "tom_cruise",
+      "imagePath": "assets/img/cast/tom_cruise.jpg",
+      "name": "Tom Cruise",
+      "character": "Ethan Hunt",
+      "movieId": "mission"
+    },
+    {
+      "id": "henry_cavill",
+      "imagePath": "assets/img/cast/henry_cavill.jpg",
+      "name": "Henry Cavill",
+      "character": "Walker",
+      "movieId": "mission"
+    },
+    {
+      "id": "ving_rhames",
+      "imagePath": "assets/img/cast/ving_rhames.jpg",
+      "name": "Ving Rhames",
+      "character": "Luther",
+      "movieId": "mission"
+    },
+    {
+      "id": "simon_pegg",
+      "imagePath": "assets/img/cast/simon_pegg.jpg",
+      "name": "Simon Pegg",
+      "character": "Benji",
+      "movieId": "mission"
+    },
+    {
+      "id": "mark_hamill",
+      "imagePath": "assets/img/cast/mark_hamill.jpg",
+      "name": "Mark Hamill",
+      "character": "Luke Skywalker",
+      "movieId": "star_wars"
+    },
+    {
+      "id": "carrie_fisher",
+      "imagePath": "assets/img/cast/carrie_fisher.jpg",
+      "name": "Carrie Fisher",
+      "character": "Leia",
+      "movieId": "star_wars"
+    },
+    {
+      "id": "adam_driver",
+      "imagePath": "assets/img/cast/adam_driver.jpg",
+      "name": "Adam Driver",
+      "character": "Kylo Ren",
+      "movieId": "star_wars"
+    },
+    {
+      "id": "daisy_ridley",
+      "imagePath": "assets/img/cast/daisy_ridley.jpg",
+      "name": "Daisy Ridley",
+      "character": "Rey",
+      "movieId": "star_wars"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "André",
+      "date": "2018-10-24",
+      "rating": 3,
+      "comment": "Esse filme poderia ter sido melhor em vários aspectos, mas ainda continua sendo bom.",
+      "movieId": "avengers"
+    },
+    {
+      "name": "Jhonny",
+      "date": "2018-10-23",
+      "rating": 5,
+      "comment": "Eu amei esse filme, é isso!",
+      "movieId": "avengers"
+    },
+    {
+      "name": "Alexandre",
+      "date": "2018-10-15",
+      "rating": 2.5,
+      "comment": "Mais um filme de ação que o vilão todo poderoso quer destruir a Terra. Pelo menos os efeitos especiais agradam os olhos.",
+      "movieId": "avengers"
+    },
+    {
+      "name": "Renata",
+      "date": "2018-10-02",
+      "rating": 5,
+      "comment": "Totalmente épico. O filme é incrível!",
+      "movieId": "avengers"
+    },
+    {
+      "name": "Eduardo",
+      "date": "2018-02-16",
+      "rating": 4,
+      "comment": "Vilão com ótima motivação, cultura afro bem representada, piadas que fazem sentido, personagens muito bem construídos, a mistura do primitivo com tecnológico é maravilhosa... Ótimo filme! As cenas de ação são boas, mas me incomodou aquelas feitas com personagens digitais no escuro e a luta final me decepcionou um pouco devido ao CGI. É um filme que te faz pensar, divertido e empolgante. Curti muito!",
+      "movieId": "black_panther"
+    },
+    {
+      "name": "Edson",
+      "date": "2018-02-16",
+      "rating": 4.5,
+      "comment": "Um dos melhores filmes que a Marvel já fez, definitivamente um filme envolvente, empolgante, sensacional...",
+      "movieId": "black_panther"
+    },
+    {
+      "name": "Rafael",
+      "date": "2018-02-26",
+      "rating": 2,
+      "comment": "Em termos de animação e efeitos especiais, mandaram super bem no filme. Se for assistir a versão 3D, apenas na primeira metade do filme realmente a aproveitará. Depois disso o 3D ficou esquecido. EM geral, é um filme com história fraca e não muito divertido. O início tem bastante ação e atrai bem a atenção, mas depois cai bastante. Se você é um fã frenético de Marvel, provavelmente vai gostar. Não é o meu caso.",
+      "movieId": "black_panther"
+    },
+    {
+      "name": "Ana",
+      "date": "2018-03-01",
+      "rating": 5,
+      "comment": "Gostei do filme. A história, cultura e legado. A mensagem que deixa em relação à união dos povos. Principalmente quando o Pantera fala: “O sábio constrói pontes e o tolo barreiras.” Fala sobre divisão de poder, competição, força, escravidão, representatividade entre outras coisas que será visto por cada um.",
+      "movieId": "black_panther"
+    },
+    {
+      "name": "Sandra",
+      "date": "2018-05-14",
+      "rating": 5,
+      "comment": "A Segunda Vez é Sempre Melhor essa é sem dúvidas a melhor definição. O filme mantém o bom humor do começo ao fim. Mas sempre intercalando com alguns momentos de bastante efeitos cinematográficos. Uma combinação perfeita. Além de contar com a melhor equipe X-force.",
+      "movieId": "deadpool"
+    },
+    {
+      "name": "Michael",
+      "date": "2018-05-21",
+      "rating": 3,
+      "comment": "O filme é fraco no roteiro, com uma história centrada na depressão de Wade, Deadpool, devido a morte da sua mulher. Deadpool fica tentando se matar o filme inteiro. Sem contar o vilão Cable com seu final surpreendente. Deadpool II, só não foi o pior filme do ano, por ser filme de super heróis, com aquela pitada de nostalgia. Pois nem as piadas e trocadilhos recheadas de palavrão deram o ar da graça. Por fim, assistam sem compromisso e sem espectativa de ser um filmaço. Daí seu aproveitamento será bem melhor.",
+      "movieId": "deadpool"
+    },
+    {
+      "name": "Anderson",
+      "date": "2018-05-14",
+      "rating": 2,
+      "comment": "Piadas forçadas, vale apenas pelos momentos de ação, fora isso, total decepção. Uma pena. Expectativa era alta.",
+      "movieId": "deadpool"
+    },
+    {
+      "name": "Suellen",
+      "date": "2018-09-10",
+      "rating": 5,
+      "comment": "Muito bom, gostei das piadas e as cenas de ação são ótimas! A trilha sonora é maravilhosa e te faz entrar no clima...",
+      "movieId": "deadpool"
+    },
+    {
+      "name": "Arthur",
+      "date": "2018-07-11",
+      "rating": 5,
+      "comment": "O longa-metragem causa riso em boa parte de sua exibição, claro que a construção dessa risada é amarga em vários momentos do filme, afinal, o período retratado é de grande violência, mas, mesmo assim, o diretor consegue criar situações do qual o telespectador se encontra rindo.",
+      "movieId": "death_stalin"
+    },
+    {
+      "name": "Tiago",
+      "date": "2018-05-17",
+      "rating": 4,
+      "comment": "Tudo funciona muito bem: atuações, direção de arte, fotografia. [...] Por mais que para o cinema internacional faça sentido o filme ser em inglês, assistir a um filme que se passa em Moscou, no Kremlin, todo falado em inglês e com os sotaques americanos, é difícil de engolir.",
+      "movieId": "death_stalin"
+    },
+    {
+      "name": "Inácio",
+      "date": "2018-10-23",
+      "rating": 3,
+      "comment": "A opção de Armando Iannucci foi pela comédia. E o momento é perfeito para o humor (negro, claro).Falta ao diretor escocês o toque de Lubitsch (“Ser ou Não Ser”) ou o gênio de Chaplin (“O Grande Ditador”), que fizeram obras-primas a partir de situações políticas.",
+      "movieId": "death_stalin"
+    },
+    {
+      "name": "Leticia",
+      "date": "2018-08-14",
+      "rating": 2.5,
+      "comment": "O resultado é decepcionante porque, entre uma comédia apática e um filme histórico hesitante, é bem difícil entender o que o diretor queria fazer. No melhor dos casos, é uma farsa com fundo político [...], mas certamente não é a sátira mordaz que poderíamos esperar.",
+      "movieId": "death_stalin"
+    },
+    {
+      "name": "Felipe",
+      "date": "2018-07-01",
+      "rating": 5,
+      "comment": "Dá orgulho ver filme de terror que independente de sustos ou de provocar medo a partir de truques técnicos como com o som ou ilusões óticas, “Hereditário” é um dos exemplares que foca mais do que com excelência na atuação.",
+      "movieId": "hereditary"
+    },
+    {
+      "name": "Suzana",
+      "date": "2018-09-10",
+      "rating": 3.5,
+      "comment": "O diretor e roteirista estreante Ari Aster se debruça sobre essa estrutura disfuncional para erguer um suspense enervante, em que o espectador nunca está certo se o que acontece é fruto do desequilíbrio mental de Annie ou fenômenos paranormais.",
+      "movieId": "hereditary"
+    },
+    {
+      "name": "Heitor",
+      "date": "2018-11-15",
+      "rating": 1,
+      "comment": "O que começa como um filme sobre a tal da hereditariedade na família, capaz de delegar aos filhos todos os medos, paranoias e traumas dos pais, no fim esquece seu próprio discurso e se envereda por algo completamente diferente, viajado e absurdo.",
+      "movieId": "hereditary"
+    },
+    {
+      "name": "Bruno",
+      "date": "2018-10-25",
+      "rating": 2.5,
+      "comment": "São interpretações que explodem com muita facilidade, que vão do robótico ao overacting com muita facilidade, justamente por serem personagens rasos [...]. Agem de forma anormal, como se não fossem uma família de verdade.",
+      "movieId": "hereditary"
+    },
+    {
+      "name": "Josué",
+      "date": "2018-10-15",
+      "rating": 4,
+      "comment": "Embora estes personagens de ação sejam uma parte importante do sucesso do filme, fica a cargo do terceiro personagem, o bebê Zezé, os melhores aspectos da sequência. Ele é fonte de uma loucura de ideias cartunescas, um corpo capaz de tudo...",
+      "movieId": "incredibles"
+    },
+    {
+      "name": "Scott",
+      "date": "2018-11-07",
+      "rating": 3,
+      "comment": "Sr. Incrível e Mulher Elástica trocando papéis de gênero é bom para algumas risadas de peixe fora d'água [...], mas Bird aproveita um insight: famílias saudáveis podem se reconstituir e sair melhor para isso. Sequências saudáveis também podem.",
+      "movieId": "incredibles"
+    },
+    {
+      "name": "Luiz",
+      "date": "2018-11-29",
+      "rating": 3.5,
+      "comment": "O filme diverte, mas não surpreende mais. O que tem de melhor vem do filme anterior - as eletrizantes cenas de ação, uma vontade de discutir temas adultos relativos à família [...]. Os pontos fracos são uma sensação de déjà-vu e a narrativa que se estende.",
+      "movieId": "incredibles"
+    },
+    {
+      "name": "Miguel",
+      "date": "2018-10-20",
+      "rating": 1.5,
+      "comment": "A fórmula do original se repete, não fosse o detalhe do empoderamento feminino. Nas cenas de ação, novidades genéricas com vilões fracos. O humor vem das atrapalhadas tarefas caseiras do pai e a estilista Edna, destaque no primeiro filme, tem participação chocha e curta",
+      "movieId": "incredibles"
+    },
+    {
+      "name": "Rogério",
+      "date": "2018-10-20",
+      "rating": 4.5,
+      "comment": "Com trilha sonora acelerada e ininterrupta, que angustia e nos carrega nos ombros por toda a projeção, aliada à um design de som inacreditável, que no faz sentir cada soco desferido e recebido por Hunt, “Missão: Impossível – Efeito Fallout” mostra-se o melhor filme de toda a franquia.",
+      "movieId": "mission"
+    },
+    {
+      "name": "Renato",
+      "date": "2018-10-20",
+      "rating": 4,
+      "comment": "O filme tem um enredo complexo e a ação acaba sendo exaustiva. Mas isso não danifica um todo que funciona surpreendentemente bem, apesar de seus próprios excessos [...] Como em todos os filmes da franquia, o coração está com Cruise, que se recusa a obedecer às leis do envelhecimento ou da gravidade.",
+      "movieId": "mission"
+    },
+    {
+      "name": "Rodrigo",
+      "date": "2018-10-20",
+      "rating": 3,
+      "comment": "Talvez você tenha pensado que já tinha visto tudo. Mas ele ainda surpreende: Hunt sobe em rochas, pilota motocicletas de alta velocidade e desviou de helicópteros em explosão, mas o cenário nunca foi tão espetacular [...] além disso, neste filme, Hunt prova por que ele é um verdadeiro herói de ação.",
+      "movieId": "mission"
+    },
+    {
+      "name": "Daniel",
+      "date": "2018-10-20",
+      "rating": 1.5,
+      "comment": "Ethan Hunt exibe força e resistência muito superiores à capacidade humana. Não dá para acreditar em tanto preparo físico. Se fosse um super-herói, talvez um Capitão América, o jogo funcionaria. Para um agente secreto, as proezas soam a uma total estupidez.",
+      "movieId": "mission"
+    },
+    {
+      "name": "Luiz",
+      "date": "2018-10-20",
+      "rating": 5,
+      "comment": "Tem Marx e tem Jesus Cristo nessa trama, ora humanista, ora messiânica, onde Luke Skywalker, encarnado por um Mark Hammil agrisalhado, maduro, é um Buda em provação.",
+      "movieId": "star_wars"
+    },
+    {
+      "name": "Cássio",
+      "date": "2018-10-20",
+      "rating": 4.5,
+      "comment": "Ao invés de seguir a premissa tradicional do bem e mal traçados como opostos, o longa mistura os conceitos não só na dupla principal, mas em boa parte do elenco - novos e antigos personagens. Essa combinação se amplia na narrativa e no ritmo do filme, o menos convencional de toda a franquia.",
+      "movieId": "star_wars"
+    },
+    {
+      "name": "Alexandre",
+      "date": "2018-10-20",
+      "rating": 3,
+      "comment": "Johnson tem a tendência de criar digressões dentro de digressões, não que exista algo de errado com isso, contanto que você consiga sustentar todas as histórias, e ele quase sempre consegue. O humor atinge tons atípicos para a franquia, o que acaba sendo mais positivo do que negativo.",
+      "movieId": "star_wars"
+    },
+    {
+      "name": "Miguel",
+      "date": "2018-10-20",
+      "rating": 2,
+      "comment": "Há raras exceções em que o miolo de uma trilogia consegue manter a qualidade [...]. Por isso, não espere a exuberância visual, a agilidade narrativa e as surpresas de O Despertar da Força. Trata-se, óbvio, de uma sequência para iniciados em Star Wars...",
+      "movieId": "star_wars"
+    }
+  ]
+}
