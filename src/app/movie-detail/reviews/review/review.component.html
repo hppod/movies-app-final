@@ -1,3 +1,91 @@
-<p>
-  review works!
-</p>
+<!--INICIO DO CONTEUDO-->
+<section class="content-header">
+</section>
+
+<section class="content">
+  <section class="invoice">
+
+    <form [formGroup]="reviewForm" novalidate>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="page-header">
+            <i class="fa fa-edit"></i> Avalie o Filme - {{movie?.name}}
+          </h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box box-solid">
+            <div class="box-body">
+              <div class="col-sm-3 col-xs-12" *ngIf="movie">
+                <img class="box-img-detail" [src]="movie?.imagePath" />
+              </div>
+
+              <dl class="col-sm-9 col-xs-12">
+                <dt>Gênero</dt>
+                <dd>{{movie?.genre}}</dd>
+                <dt>Ano de Lançamento</dt>
+                <dd>{{movie?.year}}</dd>
+                <dt>Duração</dt>
+                <dd>{{movie?.duration}}</dd>
+                <dt>Estúdio</dt>
+                <dd>{{movie?.studio}}</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-xs-12 -->
+      </div>
+
+      <div class="row invoice-info">
+        <div class="col-xs-12">
+          <p class="lead">Avaliação:</p>
+        </div>
+
+        <div class="col-sm-6 col-xs-12">
+
+          <input type="text" class="form-control" formControlName="name" placeholder="Nome" autocomplete="off">
+
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+
+          <input type="date" class="form-control" formControlName="date" placeholder="Data da Avaliação" autocomplete="off">
+
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <select class="form-control" formControlName="rating">
+            <option>1</option>
+            <option>1.5</option>
+            <option>2</option>
+            <option>2.5</option>
+            <option>3</option>
+            <option>3.5</option>
+            <option>4</option>
+            <option>4.5</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <div class="col-sm-12 col-xs-12">
+
+          <textarea class="form-control" formControlName="comment" placeholder="Escreva sua avaliação" autocomplete="off"></textarea>
+
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </form>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="review-summary.html" class="btn btn-success pull-right"><i class="fa fa-check"></i> Avaliar
+        </a>
+      </div>
+    </div>
+
+  </section>
+</section>
+<!-- FIM DO CONTEUDO-->
