@@ -14,6 +14,7 @@ import { MovieComponent } from './movies/movie/movie.component';
 import { MoviesService } from './movies/movies.service';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { ActorsComponent } from './movie-detail/actors/actors.component';
+import { ActorComponent } from './movie-detail/actors/actor/actor.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ActorsComponent } from './movie-detail/actors/actors.component';
     MoviesComponent,
     MovieComponent,
     MovieDetailComponent,
-    ActorsComponent
+    ActorsComponent,
+    ActorComponent
   ],
   imports: [
     BrowserModule,
