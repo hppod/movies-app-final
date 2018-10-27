@@ -28,7 +28,7 @@
             <dt>Sinopse</dt>
             <dd>{{movie?.about}}</dd>
             <dt>Quero fazer uma avaliação</dt>
-            <dd><a href="#" class="btn btn-success"><i class="fa fa-edit"></i> Avaliar</a></dd>
+            <dd><a [routerLink]="['/review', movieId]" class="btn btn-success"><i class="fa fa-edit"></i> Avaliar</a></dd>
           </dl>
         </div>
         <!-- /.box-body -->

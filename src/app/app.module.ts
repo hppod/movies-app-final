@@ -16,6 +16,7 @@ import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { ActorsComponent } from './movie-detail/actors/actors.component';
 import { ActorComponent } from './movie-detail/actors/actor/actor.component';
 import { ReviewsComponent } from './movie-detail/reviews/reviews.component';
+import { ReviewComponent } from './movie-detail/reviews/review/review.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ReviewsComponent } from './movie-detail/reviews/reviews.component';
     MovieDetailComponent,
     ActorsComponent,
     ActorComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,
