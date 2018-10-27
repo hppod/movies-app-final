@@ -17,6 +17,8 @@ import { ActorsComponent } from './movie-detail/actors/actors.component';
 import { ActorComponent } from './movie-detail/actors/actor/actor.component';
 import { ReviewsComponent } from './movie-detail/reviews/reviews.component';
 import { ReviewComponent } from './movie-detail/reviews/review/review.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReviewService } from './movie-detail/reviews/review/review.service';
 
 
 @NgModule({
@@ -36,9 +38,11 @@ import { ReviewComponent } from './movie-detail/reviews/review/review.component'
   imports: [
     BrowserModule,
     HttpModule,
+    FormsModule, 
+    ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [MoviesService],
+  providers: [MoviesService, ReviewService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

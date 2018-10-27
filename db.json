@@ -539,6 +539,22 @@
       "rating": 2,
       "comment": "Há raras exceções em que o miolo de uma trilogia consegue manter a qualidade [...]. Por isso, não espere a exuberância visual, a agilidade narrativa e as surpresas de O Despertar da Força. Trata-se, óbvio, de uma sequência para iniciados em Star Wars...",
       "movieId": "star_wars"
+    },
+    {
+      "name": "gh",
+      "date": "2018-10-24",
+      "comment": "hfgh",
+      "rating": "4.5",
+      "movieId": "avengers",
+      "id": "0.6206958713882884"
+    },
+    {
+      "name": "gh",
+      "date": "2018-11-02",
+      "comment": "hgfh",
+      "rating": "5",
+      "movieId": "avengers",
+      "id": "s2I9rle"
     }
   ]
 }
