@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './not-found/not-found.component';
 import { ReviewComponent } from './movie-detail/reviews/review/review.component';
 import { Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
@@ -21,5 +22,6 @@ export const ROUTES: Routes = [
         ]
     },
     { path: 'review/:id', component: ReviewComponent },
-    { path: 'thank-you', component: SuccessReviewComponent }
+    { path: 'thank-you', component: SuccessReviewComponent },
+    { path: '**', component: NotFoundComponent }
 ]

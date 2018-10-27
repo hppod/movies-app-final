@@ -21,6 +21,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReviewService } from './movie-detail/reviews/review/review.service';
 import { InputComponent } from './shared/input/input.component';
 import { SuccessReviewComponent } from './success-review/success-review.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { SuccessReviewComponent } from './success-review/success-review.componen
     ReviewsComponent,
     ReviewComponent,
     InputComponent,
-    SuccessReviewComponent
+    SuccessReviewComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
