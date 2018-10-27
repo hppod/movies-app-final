@@ -6,6 +6,7 @@ import { MoviesComponent } from "./movies/movies.component";
 import { MovieDetailComponent } from "./movie-detail/movie-detail.component";
 import { ActorsComponent } from "./movie-detail/actors/actors.component";
 import { ReviewsComponent } from "./movie-detail/reviews/reviews.component";
+import { SuccessReviewComponent } from './success-review/success-review.component';
 
 export const ROUTES: Routes = [
     { path: '', component: HomeComponent },
@@ -19,5 +20,6 @@ export const ROUTES: Routes = [
             { path: 'reviews', component: ReviewsComponent }
         ]
     },
-    { path: 'review/:id', component: ReviewComponent }
+    { path: 'review/:id', component: ReviewComponent },
+    { path: 'thank-you', component: SuccessReviewComponent }
 ]

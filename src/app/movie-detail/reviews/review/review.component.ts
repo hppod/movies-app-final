@@ -41,7 +41,7 @@ export class ReviewComponent implements OnInit {
     //review.id = Math.random().toString()
     this.reviewService.sendReview(review)
       .subscribe((reviewId: string) => {
-        this.router.navigate([''])
+        this.router.navigate(['/thank-you'])
       })
   }
 

@@ -20,6 +20,7 @@ import { ReviewComponent } from './movie-detail/reviews/review/review.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReviewService } from './movie-detail/reviews/review/review.service';
 import { InputComponent } from './shared/input/input.component';
+import { SuccessReviewComponent } from './success-review/success-review.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { InputComponent } from './shared/input/input.component';
     ActorComponent,
     ReviewsComponent,
     ReviewComponent,
-    InputComponent
+    InputComponent,
+    SuccessReviewComponent
   ],
   imports: [
     BrowserModule,
