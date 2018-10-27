@@ -1,6 +1,3 @@
-<!--INÍCIO DOS ATORES -->
-<div class="col-sm-6 col-xs-12">
-  <mv-actor *ngFor="let actor of actors | async" [actor]="actor"></mv-actor>
+<div class="col-xs-12 col-sm-12">
+  <mv-actor *ngFor="let item of actor | async" [actor]="item"></mv-actor>
 </div>
-<!-- /.info-box -->
-<!-- FIM DOS ATORES -->
