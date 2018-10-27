@@ -19,6 +19,7 @@ import { ReviewsComponent } from './movie-detail/reviews/reviews.component';
 import { ReviewComponent } from './movie-detail/reviews/review/review.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReviewService } from './movie-detail/reviews/review/review.service';
+import { InputComponent } from './shared/input/input.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ReviewService } from './movie-detail/reviews/review/review.service';
     ActorsComponent,
     ActorComponent,
     ReviewsComponent,
-    ReviewComponent
+    ReviewComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
