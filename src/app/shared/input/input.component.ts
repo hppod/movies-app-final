@@ -3,8 +3,7 @@ import { FormControlName } from '@angular/forms';
 
 @Component({
   selector: 'mv-input',
-  templateUrl: './input.component.html',
-  styleUrls: ['./input.component.css']
+  templateUrl: './input.component.html'
 })
 export class InputComponent implements OnInit, AfterContentInit {
 

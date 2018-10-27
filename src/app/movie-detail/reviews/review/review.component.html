@@ -44,35 +44,37 @@
         </div>
 
         <div class="col-sm-6 col-xs-12">
-
-          <input type="text" class="form-control" formControlName="name" placeholder="Nome" autocomplete="off">
-
+          <mv-input errorMessage="Você precisa informar seu nome" label="Nome">
+            <input type="text" class="form-control" formControlName="name" placeholder="Nome" autocomplete="off">
+          </mv-input>
         </div>
 
         <div class="col-sm-3 col-xs-6">
-
-          <input type="date" class="form-control" formControlName="date" placeholder="Data da Avaliação" autocomplete="off">
-
+          <mv-input errorMessage="Campo Obrigatório" label="Data">
+            <input type="date" class="form-control" formControlName="date" placeholder="Data da Avaliação" autocomplete="off">
+          </mv-input>
         </div>
 
         <div class="col-sm-3 col-xs-6">
-          <select class="form-control" formControlName="rating">
-            <option>1</option>
-            <option>1.5</option>
-            <option>2</option>
-            <option>2.5</option>
-            <option>3</option>
-            <option>3.5</option>
-            <option>4</option>
-            <option>4.5</option>
-            <option>5</option>
-          </select>
+          <mv-input errorMessage="Informe a nota" label="Nota">
+            <select class="form-control" formControlName="rating">
+              <option>1</option>
+              <option>1.5</option>
+              <option>2</option>
+              <option>2.5</option>
+              <option>3</option>
+              <option>3.5</option>
+              <option>4</option>
+              <option>4.5</option>
+              <option>5</option>
+            </select>
+          </mv-input>
         </div>
 
         <div class="col-sm-12 col-xs-12">
-
-          <textarea class="form-control" formControlName="comment" placeholder="Escreva sua avaliação" autocomplete="off"></textarea>
-
+          <mv-input errorMessage="Você precisa escrever sua avaliação" label="Avaliação">
+            <textarea class="form-control" formControlName="comment" placeholder="Escreva sua avaliação" autocomplete="off"></textarea>
+          </mv-input>
         </div>
         <!-- /.col -->
       </div>
@@ -81,8 +83,10 @@
 
     <div class="row">
       <div class="col-xs-12">
-        <a (click)="sendReview(reviewForm.value)" class="btn btn-success pull-right"><i class="fa fa-check"></i> Avaliar
-        </a>
+        <button (click)="sendReview(reviewForm.value)" class="btn btn-success pull-right" [disabled]="!reviewForm.valid"><i
+            class="fa fa-check"></i>
+          Avaliar
+        </button>
       </div>
     </div>
 
